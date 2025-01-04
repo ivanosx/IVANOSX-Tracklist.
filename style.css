@@ -1,0 +1,74 @@
+body {
+    background-image: url('pexels-francesco-ungaro-998641.jpg');
+}
+
+
+/* Botón de Play/Pause */
+.audio-btn {
+    background: #f5e1da;
+    border: 2px solid #d4b59e;
+    color: #5a3d2b;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.1s ease;
+    outline: none;
+}
+
+.audio-btn:hover {
+    background: #e0c2b8;
+    transform: scale(1.1);
+}
+
+.audio-btn:active {
+    background: #d4b59e;
+    transform: scale(0.9);
+}
+
+/* Canvas para el espectro (más pequeño) */
+#audio-visualizer {
+    display: block;
+    margin: 10px auto;
+    width: 300px; /* Ancho reducido */
+    height: 100px; /* Altura reducida */
+    background: #000;
+    border-radius: 8px;
+    border: 1px solid #333;
+}
+
+
+
+
+
+/* Botón de Play/Pausa */
+.audio-btn {
+    background: #f5e1da;
+    border: 2px solid #d4b59e;
+    color: #5a3d2b;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.1s ease;
+    outline: none;
+}
+
+.audio-btn:hover {
+    background: #e0c2b8;
+    transform: scale(1.1);
+}
+
+.audio-btn:active {
+    background: #d4b59e;
+    transform: scale(0.9);
+}
+
+/* Canvas para el espectro */
+#audio-visualizer {
+    width: 300px; /* Ancho ajustado */
+    height: 100px; /* Altura ajustada */
+    background: #000;
+    border-radius: 8px;
+    border: 1px solid #333;
+}
